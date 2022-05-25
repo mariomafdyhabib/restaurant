@@ -1,0 +1,142 @@
+/* .container {
+    width: 1450px;
+    margin: auto;
+    overflow: hidden;
+} */
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    float: right;
+}
+/* body {
+    display: block;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+} */
+.navbar {
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    z-index: 2;
+    top: 0%;
+    left: 0%;
+}
+.navbar .left a {
+    float: left;
+    color: black;
+    font-size: 25px;
+    letter-spacing: 2px;
+    padding: 20px;
+}
+.navbar .link {
+    float: right;
+}
+.navbar .link li {
+    display: inline-block;
+    padding: 20px;
+    margin: auto;
+    font-size: 25px;
+}
+.navbar .link li a {
+    color: black;
+    text-decoration: dashed;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 0;
+    background: url("burger.jpg");
+}
+
+
+#menu h2 {
+    font-size: 30px;
+    margin-top: 70px;
+    letter-spacing: 5px;
+    background-color: rgb(229, 183, 183);
+    opacity: 50%;
+    margin:100px ;
+}
+
+#menu h2 {
+    text-align: center;
+    line-height: 2em;
+}
+
+#menu p {
+    text-align: center;
+    line-height: 2em;
+    font-size: 20px;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#menu {
+    margin: 0 0 70px 0;
+}
+
+p {
+    display: block;
+}
+
+.one-card {
+    width: 350px;
+    text-align: center;
+    float: left;
+    padding: 20px;
+    /* border: 2px solid rgb(212, 212, 212); */
+    overflow: hidden;
+    margin: 65px;
+    border-radius: 5px;
+}
+
+.one-card:hover {
+    /* border: 1px solid rgb(57, 35, 255); */
+    display: block;
+}
+
+.one-card img {
+    border-radius: 50%;
+    width: 160px;
+    margin-top: 20px;
+}
+
+.one-card h1 {
+    font-weight: bold;
+    font-size: 30px;
+    color: black;
+}
+
+.one-card p {
+    padding: 0 40px 5px;
+    line-height: 30px;
+    color: #817f7f;
+}
+
+.one-card button {
+    background-color: #5a56ec;
+    border: none;
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 25px;
+    border-radius: 10px;
+}
+
+.one-card button:hover {
+    background: rgb(0, 195, 255);
+}
+
+.navbar .link li:hover {
+    background-color: #b1b0b0;
+}
+
