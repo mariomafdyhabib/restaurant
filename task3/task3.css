@@ -38,6 +38,7 @@ ul {
     padding: 20px;
     margin: auto;
     font-size: 25px;
+    
 }
 .navbar .link li a {
     color: black;
@@ -139,4 +140,26 @@ p {
 .navbar .link li:hover {
     background-color: #b1b0b0;
 }
-
+@media screen and (max-width:1200px){
+    body{
+        
+        width: 100%;
+        background-size: cover;
+        background-position: center center;    
+    }
+    .one-card {
+        margin-left: 18%;
+    }
+    #menu p {
+        margin-left: 2rem;
+    }
+    #menu h2{
+        margin-top: 20rem;
+        margin-left: 7.5rem;
+    }
+    /* .navbar .link li {
+        text-align: center;
+        width: 50%;
+        display: inline-block;
+    */
+}
