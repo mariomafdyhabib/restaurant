@@ -1,0 +1,53 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="comtainer">
+            <div class="left">
+                <a href="#">the best food in town</a>
+            </div>
+            <div>
+                <ul class="link">
+                    <li><a href=Untitled-1.html>Home</a></li>
+                    <li><a href=register.html>Regestrtion</a></li>
+                    <li><a href=task3\task3.html>Menu</a></li>
+                    <li><a href=task2\task2.html>About</a></li>
+                    <li><a href=contact.html>Contact us</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <form id="register-form" action="form-res.html">
+        <p>please insert your information</p>
+        <input type="text" placeholder="first name" required name="first-name">
+        <input type="text" placeholder="last name" required name="last-name">
+        <input type="email" 
+        placeholder="email" 
+        name="email"
+        pattern="(?=.*[a-zA-Z])[a-zA-Z0-9]+@[a-zA-Z]+\.[a-zA-Z]{2,}"
+        required
+        >
+        <input type="password" placeholder="password" required
+        name="password"
+       pattern="[A-Z](?=.*[0-9])(?!.\s)(?=.*[!@#$%^&])[a-zA-Z0-9!@#$%^&*\u0621-\u064A]{7}"
+        id="password"
+
+        >
+        <input type="text" placeholder="number" required name="number">
+        <input type="text" placeholder="addrese" required name="addresse">
+        <input type="radio" name="gender" value="male" required>
+        <label for="male">male</label>
+        &nbsp; &nbsp; &nbsp;
+        <input type="radio" name="gender" value="female" required >
+        <label for="female">female</label>
+        <input type="submit" value="register">
+    </form>
+
+</body>
+</html>

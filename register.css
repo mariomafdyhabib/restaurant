@@ -1,0 +1,89 @@
+/* .container {
+    width: 1450px;
+    margin: auto;
+    overflow: hidden;
+} */
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    float: right;
+}
+/* body {
+    display: block;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+} */
+.navbar {
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    top: 0%;
+    z-index: 2;
+    left: 0%;
+}
+.navbar .left a {
+    float: left;
+    color: black;
+    font-size: 25px;
+    letter-spacing: 2px;
+    padding: 20px;
+}
+.navbar .link {
+    float: right;
+}
+.navbar .link li {
+    display: inline-block;
+    padding: 20px;
+    margin: auto;
+    font-size: 25px;
+}
+.navbar .link li a {
+    color: black;
+    text-decoration: dashed;
+}
+form {
+padding: auto;
+margin:300px auto;
+border: 0px rgb(152, 77, 44) dashed;
+width: 30%;
+min-width: 300px;
+
+}
+form p {
+    font-size: 30px;
+    text-align: center;
+    /* background-color: rgb(144, 66, 24); */
+    width: 150% 150% ;
+    float: center;
+    /* opacity: 50%; */
+}
+input {
+    width: 100%;
+    display: block;
+    padding:10px;
+    margin:10px auto ;
+    letter-spacing: 1px;
+    
+}
+input[type="radio"] {
+    width: auto;
+    display: inline !important;
+    font-size: 30px;
+}
+label{
+    padding:10px;
+    margin:10px auto ;
+    font-size: 30px;
+}
+input[type="submit"]{
+    background-color: rgb(223, 194, 151);
+    /* opacity: 50%; */
+}
+body{
+    background: url("burger.jpg");
+}
+.navbar .link li:hover {
+    background-color: #b1b0b0;
+}

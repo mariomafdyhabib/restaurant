@@ -1,0 +1,155 @@
+/* .container {
+    width: 1450px;
+    margin: auto;
+    overflow: hidden;
+} */
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    float: right;
+}
+/* body {
+    display: block;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+} */
+body{
+    background: url("burger.jpg");
+}
+.navbar {
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    z-index: 2;
+    top: 0%;
+    left: 0%;
+}
+.navbar .left a {
+    float: left;
+    color: black;
+    font-size: 25px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+    padding: 20px;
+}
+.navbar .link {
+    float: right;
+}
+.navbar .link li {
+    display: inline-block;
+    padding: 20px;
+    margin: auto;
+    font-size: 25px;
+}
+.navbar .link li a {
+    color: black;
+    text-decoration: dashed;
+}
+.navbar .link li:hover {
+    background-color: #b1b0b0;
+}
+ .header {
+    
+    background-size: cover;
+    width: 100%;
+     height: 28vh; 
+    position: relative;
+}
+.header .container h1 {
+    position:absolute;
+    bottom: 10px;
+    letter-spacing: 5px;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+} 
+
+table{
+    border: 30px;
+    margin: auto;
+    padding: auto;
+    background-color: black;
+    opacity: 50%;
+    border-radius: 20%;
+    text-align: center;
+    width: 100%;
+}  
+tr{
+    font-size: 30px;
+    color: tomato;
+
+}  
+#menu{
+    margin-bottom: 90px;
+}
+#menu h2, #menu p{
+    text-align: center;
+    line-height: 1.8em;
+}
+
+#menu h2{
+    letter-spacing: 5px;
+    font-size: 30px;
+    margin-top: 70px;
+    margin-bottom: 0;
+}
+
+
+
+.all-boxs {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+}
+.all-boxs .box {
+    width:400px;
+    margin-bottom: 40px;
+    position: relative;
+    min-height: 300px;
+    overflow: hidden;
+    border-radius: 7px;
+    box-shadow: 0 1px 9px #a4a3a3; ;
+}
+.all-boxs .box:last-of-type {
+    margin-right:0
+}
+.all-boxs .box .image img, .all-boxs .box .images img  {
+    width: 100%;
+    height: 100%;
+    transition: .3s all ease-in-out;
+}
+
+
+
+
+.all-boxs .box .images{
+    width: 100%;
+    height: 230px;
+}
+
+.all-boxs .box .contents{
+    text-align: center;
+    overflow: hidden;
+    background-color:rgb(243 180 127);
+}
+
+.all-boxs .box .contents p{
+    height: 0;
+    overflow: hidden;
+    padding: 0 30px;
+    transition: .5s opacity , .5s height ease-in-out;
+    
+}
+
+.all-boxs .box .contents button{
+    background-color: #000;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 30px;
+
+}
+
