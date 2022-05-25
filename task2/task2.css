@@ -59,6 +59,7 @@ margin: 0;
 display: flex;
 justify-content: space-evenly;
 flex-wrap: wrap;
+
 margin-bottom: 50px;
 
 }
@@ -111,4 +112,16 @@ box-shadow: 0 1px 9px #a4a3a3;
 .navbar .link li:hover {
     background-color: #b1b0b0;
 }
+@media screen and (max-width:600px){
+    .boxes .first_face  {
+        height: 60%;
+        
+    }    
+        
+    h1 {
+        margin-top: 20rem;
+        text-align: center;
+        margin-left: 4rem;
+    }   
 
+}
